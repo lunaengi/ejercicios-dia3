@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa de Imagen</title>
+</head>
+
+    <body>
+
+      <h2>Ejemplo de Mapa de Imagen Interactivo</h2>
+
+      <!-- Imagen con uso de mapa -->
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Map_of_Latin_America.svg/640px-Map_of_Latin_America.svg.png"
+           alt="Mapa de América Latina"
+           usemap="#mapa-latinoamerica"
+           width="600">
+
+      <!-- Definición del mapa -->
+      <map name="mapa-latinoamerica">
+        <!-- Área 1: Colombia (aproximado) -->
+        <area shape="circle" coords="300,220,25"
+              href="https://es.wikipedia.org/wiki/Colombia"
+              alt="Colombia"
+              title="Ir a la página de Colombia">
+
+        <!-- Área 2: Brasil (aproximado) -->
+        <area shape="rect" coords="360,300,420,350"
+              href="https://es.wikipedia.org/wiki/Brasil"
+              alt="Brasil"
+              title="Ir a la página de Brasil">
+      </map>
+  </body>
+
+
+</html>
